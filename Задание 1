@@ -1,1 +1,3 @@
-
+text = input("Введите предложение: ")
+result = len(text.split())
+print("В предложении " + str(result) + " слов.")
