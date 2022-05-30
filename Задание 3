@@ -4,16 +4,8 @@ import math
 import sys
 
 
-a='рентгеноэлектрокардиография123456789'
-
-print(a)
-
-s,k=map(int, input('Введите позиции s и k (s>k) : ').split())
-
-c=a[s-1]
-
-a=a[:s-1]+a[s:]
-
-a=a[:k-1]+c+a[k-1:]
-
-print(a)
+f=''
+if __name__ == '__main__':
+    s = "ИТЕРНЕТН"
+    f += s[0]+s[4]+s[1]+s[2]+s[3]+s[7]+s[5]+s[6]
+    print(f)
